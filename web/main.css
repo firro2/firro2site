@@ -1,0 +1,88 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+main{
+    width: 70%;
+    padding: 70px;
+    margin: auto;
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    transition: all 2s ease;
+}
+.photo1{
+background-image: url(pict/1g.jpg);
+}
+.photo2{
+    background-image: url(pict/2g.jpg);
+}
+.photo3{
+    background-image: url(pict/3g.jpg);
+}
+.photo4{
+    background-image: url(pict/4g.jpg);
+}
+.photo5{
+    background-image: url(pict/5g.jpg);
+}
+.photo6{
+    background-image: url(pict/6g.jpg);
+}
+.photo7{
+    background-image: url(pict/7g.jpg);
+}
+.photo8{
+    background-image: url(pict/8g.jpg);
+}
+.photo9{
+    background-image: url(pict/9g.jpg);
+}
+.photo10{
+    background-image: url(pict/10g.jpg);
+}
+.photo11{
+    background-image: url(pict/11g.jpg);
+}
+.photo12{
+    background-image: url(pict/12g.jpg);
+}
+.photo:hover{
+  
+   opacity:1;
+   transform: scale(1.2) rotate(-5deg);
+   z-index: 100;
+   box-shadow: 0 0 1px 3px rgb(87, 87, 87);
+   filter: blur(0px);
+   
+}
+.photo{
+    opacity:0.65;
+    display: block;
+    margin: 25px;
+    transition: opacity 1s ease, transform 1.2s ease-in;box-shadow: 11s ease-out;rotate: 8s ;
+    background-color: rgb(255, 196, 0);
+    width: 120px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    filter:blur(4px);
+    
+}
+
+    
